@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
+import Headshot from './assets/Headshot.png'
 
 const projects = [
   { title: 'FleetManage.ai', desc: 'AI-powered maintenance SaaS for in-house shops', tags: ['.NET','Blazor','SQL','AI'], bar: 'from-violet-500 to-fuchsia-400' },
@@ -61,7 +62,11 @@ export default function App(){
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.1 }} className="relative">
             <div className="aspect-[4/5] w-full rounded-3xl bg-gradient-to-br from-white to-violet-50 dark:from-slate-900 dark:to-slate-900 ring-1 ring-violet-100 dark:ring-slate-800 p-4 shadow-sm grid place-items-center text-slate-400">
-              Your headshot goes here
+              <img
+                    src={Headshot}
+                    alt="Durli Hojayeva headshot"
+                    className="aspect-[4/5] w-full rounded-3xl object-cover object-center ring-1 ring-violet-100 dark:ring-slate-800 shadow-sm"
+                  />
             </div>
             <div className="absolute -bottom-4 -left-4 rounded-2xl bg-white dark:bg-slate-900 ring-1 ring-violet-200 dark:ring-slate-800 px-4 py-3 shadow-lg">
               <div className="text-xs text-slate-600 dark:text-slate-300">Recent work</div>
@@ -186,7 +191,7 @@ export default function App(){
       {/* Footer */}
       <footer className="py-10 bg-gradient-to-r from-violet-50 to-fuchsia-50 dark:from-slate-900 dark:to-slate-900 border-t border-slate-200 dark:border-slate-800">
         <div className="mx-auto max-w-6xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-slate-500 dark:text-slate-400">© {new Date().getFullYear()} Dori Hojayeva • Chicago, IL</p>
+          <p className="text-sm text-slate-500 dark:text-slate-400">© {new Date().getFullYear()} Durli Hojayeva • Chicago, IL</p>
           <div className="flex items-center gap-4 text-sm text-violet-700 dark:text-violet-300">
             <a href="#" className="hover:underline">LinkedIn</a>
             <a href="#" className="hover:underline">GitHub</a>
