@@ -30,7 +30,7 @@ export default function App(){
       {/* Nav */}
       <header className="sticky top-0 z-40 backdrop-blur bg-white/80 dark:bg-slate-900/70 border-b border-slate-200 dark:border-slate-800">
         <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-          <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-fuchsia-500">Dori Hojayeva</span>
+          <span className="font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-fuchsia-500">Durli Hojayeva</span>
           <nav className="hidden md:flex items-center gap-3">
             <a href="#work" className="btn hover:bg-slate-50 dark:hover:bg-slate-800">Work</a>
             <a href="#skills" className="btn hover:bg-slate-50 dark:hover:bg-slate-800">Skills</a>
@@ -194,7 +194,7 @@ export default function App(){
           <p className="text-sm text-slate-500 dark:text-slate-400">© {new Date().getFullYear()} Durli Hojayeva • Chicago, IL</p>
           <div className="flex items-center gap-4 text-sm text-violet-700 dark:text-violet-300">
             <a href="#" className="hover:underline">LinkedIn</a>
-            <a href="#" className="hover:underline">GitHub</a>
+            <a href="https://github.com/hojayevadurli" className="hover:underline">GitHub</a>
             <a href="#" className="hover:underline">Blog</a>
           </div>
         </div>
