@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import Headshot from './assets/Headshot.png'
+import Headshot from './assets/headshot.png'
 
 const projects = [
   { title: 'FleetManage.ai', desc: 'AI-powered maintenance SaaS for in-house shops', tags: ['.NET','Blazor','SQL','AI'], bar: 'from-violet-500 to-fuchsia-400' },
